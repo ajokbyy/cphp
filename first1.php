@@ -1,3 +1,6 @@
+<!-- basic of php like data types veriable, object, define -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +11,7 @@
 </head>
 <body>
     <h1>i don't konw</h1>
-</body>
-</html>
+
 <?php
 echo "Hello World <br>";
 echo "Hello World <br>";
@@ -56,4 +58,43 @@ echo var_dump($myvan);
 echo "<br>";
 $myvan = (true xor true);
 echo var_dump($myvan);
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+// <!-- second class  -->
+// <!-- object - tells what "type of data is taht" -->
+// any typedata - float, bool, etc
+
+$truck = "this is the best we can do";
+echo var_dump($truck);
+echo "<br>";
+$truck = 22;
+echo var_dump($truck);
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+// constant
+define('PI', 55.14);
+
+ECHO PI;
+
+// $PI = 3.24;
+// ECHO PI;
+// we cannot change it 
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
+
+
 ?>
+
+</body>
+</html>
